@@ -16,3 +16,10 @@ p{
     font-family: 'monotype corsiva';
     font-size: 150%;
 }
+h2{
+    text-align: center;
+}
+.lien{
+    text-decoration: none;
+    color:red;
+}
