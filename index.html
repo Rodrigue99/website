@@ -4,22 +4,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon site</title>
-    <link rel="stylesheet" href="index.css">
+    <title>Carte de crédit</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 </head>
 
 <body>
-    <p class="un">
-        <img src="rodrigue.jpg" alt="Ma photo" class="photo"><br>
-        <span>Rodrigue HOUNKPATIN</span>
-    </p>
-    <p class="text">
-        Bonjour et bienvenue sur mon site.... <br>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae eligendi perspiciatis aliquid architecto
-        temporibus ex, quod quae incidunt excepturi eveniet saepe. Obcaecati rem iusto vel nobis alias quo assumenda
-        cumque.
-    </p>
-    <a href="portfolio.html" class="lien" title="Découvrez mon portfolio"><h2>Mon portfolio</h2></a>
+    <div class="container"style="width:600px";>
+        <div class="row">
+            <div class="col-md-12">
+                <label>Card Number</label>
+                <input  class="form-control" type="number" name="numero">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                 <label>Card Name</label>
+                 <input class="form-control" type="text" name="nom">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 ">
+                <label>Expiration Date</label>
+            </div>
+            <div class="col-md-3"></div>
+            <div class="col-md-3">cw</div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                    <select name="month" id="month" class="form-control">
+                         <option value="Month">Month</option>
+                         <option value="January">January</option>
+                         <option value="February">February</option>
+                    </select>
+            </div>
+            <div class="col-md-3 ">
+                <select name="year" id="year" class="form-control">
+                        <option value="Year">Year</option>
+                        <option value="2019">2019</option>
+                        <option value="2020">2020</option>
+                </select>
+             </div>
+            <div class="col-md-3">
+              <input type="number" name="cw" class="form-control">
+             </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12"><br>
+                <button type="button" class="btn btn-primary btn-lg btn-block" >Submit</button>
+
+            </div>
+        </div>
+    
 </body>
 
 </html>
